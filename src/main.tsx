@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ConfigProvider } from "antd";
 import ptBR from "antd/locale/pt_BR";
 import App from "./App";
-import "antd/dist/reset.css";
+// import "antd/dist/reset.css";
 import "./styles/global.css";
 import { HelmetProvider } from "react-helmet-async";
 
@@ -20,11 +20,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         },
       }}
     >
-    <HelmetProvider>
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-</HelmetProvider>
+      <HelmetProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </HelmetProvider>
     </ConfigProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

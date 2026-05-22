@@ -2,7 +2,7 @@ import HeroForm from "../../components/admin/HeroForm";
 import ServicesForm from "../../components/admin/ServicesForm";
 import CasesForm from "../../components/admin/CasesForm";
 
-export default function DashboardPage() {
+export default function DashboardPages() {
   return (
     <div style={{ padding: 40 }}>
       <HeroForm />
