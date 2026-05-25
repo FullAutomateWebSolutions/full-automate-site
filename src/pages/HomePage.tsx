@@ -1,22 +1,14 @@
 import { Helmet } from "react-helmet-async";
-import Features from "../components/Features";
 import Integracoes from "../components/Integracoes";
-import CardsFeatures from "../components/CardsFeatures";
-import IntegracoesMarquee from "../components/IntegracoesMarque";
-import StepsPage from "../components/StepsPage";
 
-import { Flex, Layout } from "antd";
-import Modelo from "./Modelo";
+import { Layout } from "antd";
 import Hero from "./HeroPage";
-import ModeloPage from "./ModeloPage";
 import HeroPage0 from "./HeroPage0";
-import LogoCarousel from "./LogoCarousel";
 import CtaPage from "./CtaPage";
 import ServicePage from "./ServicePage";
 import LeadModal from "./LeadModal";
 import CookieBanner from "../components/CookieBanner";
 import TestimonialPage from "./TestimonialPage";
-import SobrePage from "./SobrePage";
 import LogoCarouselInfinito from "../components/Carousel/LogoCarouselInfinito";
 
 const { Header, Footer, Sider, Content } = Layout;

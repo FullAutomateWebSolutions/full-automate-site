@@ -1,7 +1,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export function PremiumImage({ src, alt }) {
+interface IPremiumImage{
+src : string,  
+ alt : string
+}
+
+export function PremiumImage({ src  , alt } :IPremiumImage) {
   const [loaded, setLoaded] = useState(false);
 
   return (

@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-//@ts-expect-error
+
 import "./LogoCarouselInfinito.css";
 interface IlogoCarrouselInfinito {
   type?: "intro" | "title" | "image",

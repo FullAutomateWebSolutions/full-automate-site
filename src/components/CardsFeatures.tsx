@@ -135,12 +135,12 @@ export default function CardsFeatures() {
       </div>
 
       {/* hover effect */}
-      <style jsx>{`
+      {/* <style jsx>{`
         .card:hover {
           transform: translateY(-6px);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         }
-      `}</style>
+      `}</style> */}
     </section>
   );
 }

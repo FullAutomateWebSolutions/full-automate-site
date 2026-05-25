@@ -21,23 +21,23 @@ export function loadGA() {
 
   document.head.appendChild(script);
 
-  window.dataLayer = window.dataLayer || [];
-  function gtag(...args: any[]) {
-    window.dataLayer.push(args);
-  }
+  // window.dataLayer = window.dataLayer || [];
+  // function gtag(...args: any[]) {
+  //   window.dataLayer.push(args);
+  // }
 
-  (window as any).gtag = gtag;
+  // (window as any).gtag = gtag;
 
-  gtag("js", new Date());
-  gtag("config", "G-LWNZXCEW7N");
+  // gtag("js", new Date());
+  // gtag("config", "G-LWNZXCEW7N");
 
   loaded = true;
 }
 
 export function trackEvent(event: string) {
-  if ((window as any).fbq) {
-    (window as any).fbq("track", event);
-  }
+  // if ((window as any).fbq) {
+  //   (window as any).fbq("track", event);
+  // }
 }
 
 
